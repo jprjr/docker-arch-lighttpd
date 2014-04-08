@@ -16,13 +16,13 @@ $ docker build -t <repo name> .
 ### Run in foreground
 
 ```
-$ docker run -v /path/to/conf:/etc/lighttpd -p 80 jprjr/pydio
+$ docker run -v /path/to/conf:/etc/lighttpd -p 80 jprjr/lighttpd
 ```
 
 ### Run in background
 
 ```
-$ docker run -d -v /path/to/conf:/etc/lighttpd -p 80 jprjr/pydio
+$ docker run -d -v /path/to/conf:/etc/lighttpd -p 80 jprjr/lighttpd
 ```
 
 
