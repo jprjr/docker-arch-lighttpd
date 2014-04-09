@@ -4,7 +4,7 @@ MAINTAINER John Regan <john@jrjrtech.com>
 RUN pacman -Syy --noconfirm --quiet > /dev/null
 
 RUN pacman -S --noconfirm --quiet --needed \
-    lighttpd >/dev/null 2>/dev/null
+    lighttpd openssl >/dev/null 2>/dev/null
 
 EXPOSE 80
 EXPOSE 443
